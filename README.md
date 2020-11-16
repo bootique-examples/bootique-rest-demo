@@ -8,16 +8,16 @@ mvn clean package
 ```
 To print supported options:
 ```
-java -jar target/bootique-rest-demo-0.0.1-SNAPSHOT.jar 
+java -jar target/bootique-rest-demo-2.0.jar 
 ```
 To run with **default** config:
 ```
-java -jar target/bootique-rest-demo-0.0.1-SNAPSHOT.jar --server
+java -jar target/bootique-rest-demo-2.0.jar --server
 ```
 Then open [http://127.0.0.1:8080/](http://127.0.0.1:8080/). 
 
 To run with **custom** config:
 ```
-java -jar target/bootique-rest-demo-0.0.1-SNAPSHOT.jar --server --config=test.yml
+java -jar target/bootique-rest-demo-2.0.jar --server --config=test.yml
 ```
 Then open [http://127.0.0.1:9000/bq](http://127.0.0.1:9000/bq).
